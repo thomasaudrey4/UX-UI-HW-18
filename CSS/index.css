@@ -1,34 +1,82 @@
+
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1efe3;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 75px;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    color: rgb(51, 21, 21);
+}
 .inline-block {
     display: inline-block;
     vertical-align: center;
 }
 
 .logo {
-    width: 15%;
+    width: 75px;
     padding-top: 5px;
-    float: left;
     text-align: center;
-
 }
 
-nav {
-    width: 80%;
-    padding: 10px;
-    justify-content: space-evenly; 
-   font-family: Georgia, 'Times New Roman', Times, serif
-   /* update to philosopher font */
-}
+/* HERO SECTION -fix hero so text is next to image*/
 
-ul {
-    width: 50%;
-    margin-left: auto;
-}
 
 .Hero {
-    padding: 25px;
-    height: 400px;
+    display: flex;
 }
 
 .imageCollage {
+    display: inline-block;
+    vertical-align: top;
     margin-left: 0 auto;
+    align-items: left;
+}
+
+.profileImage {
+    padding: 25px;
+    height: 300px;
+}
+
+.heroFooter {
+    display: inline-block;
+}
+/* TEXT STYLES update font family to philosopher for H1*/
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    line-height: 70px;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 28px;
 }
