@@ -62,11 +62,24 @@ body, ul {
 
 .profileImage {
     padding: 25px;
-    height: 300px;
+    height: 350px;
 }
 
+.heroText {
+    align-content: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+/* figure out how to align part of this to the left1*/
 .heroFooter {
-    display: inline-block;
+    background-color: aquamarine;
+
+}
+
+.heroLeftAlign {
+    margin: 0 auto;
+    float: left;
 }
 /* TEXT STYLES update font family to philosopher for H1*/
 
